@@ -6,7 +6,7 @@ c = int(input("Entrez c: "))
 
 # Calculer le discriminant et assigner la valeur dans la variable "delta"
 # delta = ...
-delta = (b^2)-(4*a*c)
+delta = (abs(b)**2)-(4*a*c)
 
 # Déterminer la condition (bool) qui correspond à aucune solution de l'équation et mettre la valeur dans la variable "naPasDeSolution"
 # naPasDeSolution = ...
@@ -45,12 +45,12 @@ else:
             print("Deux racines")
             # calculer la prmiere racine, assigner la a "x1"
             # x1 = ...
-            x1 = float(-b + (math.sqrt(delta))/(2.0*a))
+            x1 = (-b - (math.sqrt(delta)))/(2.0*a)
             # calculer la deuxieme racine, assigner la a "x2"
             # x2 = ...
-            x2 = float(-b - (math.sqrt(delta))/(2.0*a))
+            x2 = (-b + (math.sqrt(delta)))/(2.0*a)
             # print(x1, x2)
-            print(x1, x2)
+            print("x1 =", x1, ", x2 =", x2)
             pass
 
 # Exemple d'utilisation:
