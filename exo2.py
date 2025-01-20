@@ -7,11 +7,11 @@ else:
     
 # Arrondir le pourcentage à la dizaine la plus proche
     niveau_de_charge_arrondi = round(niveau_de_charge, -1)
-    print(niveau_de_charge_arrondi)
+ 
 
 # Calculer le nombre de barres
     nombre_de_barres = niveau_de_charge_arrondi/10
-    print(nombre_de_barres)
+ 
 
 # Afficher la représentation graphique de la charge de la batterie
     batterie = ""
@@ -20,10 +20,13 @@ else:
             batterie+= "["
         if (i == 10):
             batterie+="]"
-        if (i>0) and (i<=nombre_de_barres):
-            batterie=="❚"
+        if (i>=0) and (i<nombre_de_barres):
+            batterie+="❚"
         else:
             batterie+=" "
+    
+    print(batterie)
+    print(str(float(niveau_de_charge))+"%")
 
 
             
