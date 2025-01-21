@@ -26,7 +26,7 @@ else:
             batterie+=" "
     
     print(batterie)
-    print(str(float(niveau_de_charge))+"%")
+    print(str(niveau_de_charge)+"%")
 
 
             
