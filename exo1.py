@@ -1,7 +1,7 @@
 # Demander le nom complet de l'utilisateur
 nom_complet = input("Veuillez entrer votre nom complet: ")
 # Demander l'âge de l'utilisateur
-âge = int(input("Veuillez entrez votre âge: "))
+âge = int(input("Veuillez entrer votre âge: "))
 
 # Définir l'année actuelle
 année_actuelle = 2025
