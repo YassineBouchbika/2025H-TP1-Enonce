@@ -50,7 +50,8 @@ else:
             # x2 = ...
             x2 = (-b + (math.sqrt(delta)))/(2.0*a)
             # print(x1, x2)
-            print("x1 =", str(x1)+ ", x2 =", str(x2))
+            #print("x1 =", str(x1)+ ", x2 =", str(x2))
+            print(x1, x2)
             pass
 
 # Exemple d'utilisation:
