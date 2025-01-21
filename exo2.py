@@ -15,7 +15,7 @@ else:
 
 # Afficher la représentation graphique de la charge de la batterie
     batterie = ""
-    for i in range(0, 10+1):
+    for i in range(0, 10):
         if (i == 0):
             batterie+= "["
         if (i == 10):
