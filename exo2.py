@@ -1,8 +1,8 @@
 # Demandez à l'utilisateur d'entrer le niveau de charge actuel de la batterie
-niveau_de_charge = int(input("Veuillez entrer le niveau de charge actuel de la batterie: "))
+niveau_de_charge = int(input("Entrez le niveau de charge actuel de la batterie : "))
 # Vérifiez si le niveau de charge est valide
 if (niveau_de_charge<0) or (niveau_de_charge>100):
-    print("Erreur : Niveau de charge invalide.")
+    print("Erreur : niveau de charge invalide.")
 else: 
     
 # Arrondir le pourcentage à la dizaine la plus proche
