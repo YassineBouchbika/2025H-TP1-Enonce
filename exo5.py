@@ -18,7 +18,7 @@ distance_maximale = float((vitesse_initiale**2*math.sin(2*angle_rad)/g))
 distance_finale = round(distance_maximale, 2)
 
 # Afficher la distance maximale arrondie à 2 chiffres après la virgule
-print("Distance parcourue:", str(distance_finale)+"m")
+print("Distance parcourue: %.2f" % distance_finale+"m")
 
 # Exemple:
 # Pour une vitesse initiale de 10 m/s et un angle de 45 degrés
